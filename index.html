@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Welcome to My Homepage</h1>
+            <h2>Personal Info</h2>
+            <section class="personal-info">
+                <div class="first-section">
+                    
+                    <div class="Leftside"> 
+                        <div class="form-element name-element">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name">
+                            <br/>
+                        </div>
+                        <div class="form-element initial-element">
+                            <label for="m-initial">M. Initial:</label>
+                            <input type="text" id="m-initial" name="m-initial">
+                            <br/>
+                        </div>
+                        <div class="form-element lastname-element">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name">
+                            <br/>
+                        </div>
+                        <div class="form-element form-element">
+                            <label for="country">I am from:</label>
+                            <select id="countryDropdown" placeholder="Select a country"></select>
+                        </div>
+                    </div>
+    
+                    <div class="Rightside">
+                        <div class="form-element">
+                            <label for="matriculation">Matriculation:</label>
+                            <input type="text" id="matriculation" name="matriculation">
+                            <br/>
+                        </div>
+                        <div class="form-element">
+                            <label for="semester">Semester:</label>
+                            <input type="text" id="semester" name="semester">
+                            <br/>
+                        </div>
+                        <div class="form-element">
+                            <label for="program">Program:</label>
+                            <select id="program" name="program">
+                                <option value="">--Select--</option>
+                            </select>
+                            <br/>
+                        </div>
+                        <div class="form-element">
+                            <label for="started">Started in:</label>
+                            <input type="date" id="started" name="started">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="second-section">
+                    <div class="secondsub-section">
+                        <p>I've heard this graduate program from:</p>
+                        <div class="graduateoption">
+                            <label><input type="checkbox" name="source" value="media"> Media</label>
+                            <label><input type="checkbox" name="source" value="ad"> Ad</label>
+                            <label><input type="checkbox" name="source" value="agency"> Agency</label>
+                            <label><input type="checkbox" name="source" value="other"> Other</label>
+                        </div>
+                    </div>
+                    <div class="secondsub-sectiontwo">
+                        <p>When I finish my study, I will:</p>
+                        <label><input type="radio" name="plan" value="return"> Return to my country</label><br/>
+                        <label><input type="radio" name="plan" value="job"> Find a job in Europe</label><br/>
+                        <label><input type="radio" name="plan" value="training"> Do the practical training and then decide</label><br/>
+                    </div>
+                </div>
+            </section>
+            <section class="third-section common-section-style">
+                <h2>Feedback for the Course</h2>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..."> The Software Development course provided an in-depth understanding of the lifecycle of a product, from inception to deployment, including the programming languages and data structures required to achieve it. Professor Hasan Dag explained us each topic in detail, using real-life scenarios to illustrate complex concepts and terminology. This practical approach made it easier to grasp challenging ideas and enhanced our overall learning experience.
+                </textarea>
+            </section>
+    
+            <section class="fourth-section common-section-style">
+                <div class="sdlcone">
+                    <h3>I will write a paragraph for each methodology of SDLC. There are many of them, but I will suggest a few. My suggestions and reasons are as follows:</h3>
+                    <div class="sdlcmethod">
+                        <p><i> <b>a) Waterfall Model:</b> </i>This model is easy to understand and use, where each phase (requirements, design, implementation, Test, Installation, and maintenance is completed sequentially.
+                            Its structured nature makes it ideal for projects with clearly defined requirements and minimal expected changes. This linear approach may create a false sense of progress and fails to align with the iterative nature of problem-solving in software development.
+                        It can be used when the requirements are well known, also for a new version of existing product.
+                        </p>
+                        <p><i><b>b) RAD (Rapid Application Development) model:</b></i> It consists of four phases: 
+                            Requirements Planning( structured discussions to define business problems), 
+                            User Description (using automated tools to gather user input),
+                            Construction (leveraging productivity tools), and Cutover( involves installation, user testing, and training). 
+                            RAD’s strengths include reduced cycle time, lower costs, and enhanced customer satisfaction through continuous involvement.
+                            It works best for modular systems with well-known requirements, with low technical risks, and incremental functionality delivery.</p>
+                        <p><i><b>c) Agile Models:</b></i> It is a flexible and iterative software development methodology that emphasizes collaboration, adaptability, and customer satisfaction.
+                        It  focuses on delivering small, incremental updates of a product through short development cycles knowns as iterations. Agile promotes close collaboration between cross-functional teams and stakeholders,
+                        making it ideal for dynamic environments and projects with evolving requirements.
+                        </p>
+                    </div>
+                </div>
+                <div class="sdlctwo">
+                    <h3>Among so many SDLC methodologies, the ones that are in the Agile classification are better. Among Agile SDLC methods, I have also a few suggestions:</h3>
+                    <div class="sdlcmethod">
+                        <p><i><b>a) Scrum:</b></i> It is a widely-used framework designed to manage and complete complex projects, Work is divided into sprints, a sprint is a short timeframe where developers focus on building important 
+                            features which will become the part of final product.
+                         </p>
+                        <p><i><b>b) Extreme Programming (XP): </b></i>It focuses more on software quality and it is much strict than scrum. Here, code is frequently tested
+                            and shown to customer to detect any issue at the early stage or to recieve feedback/suggestion from the customer to shape the product as per the requirement.  It promotes frequent releases in short development cycles
+                            to resduce the risk of building unnecessary features.
+
+                         </p>
+                        <p><i><b>c) Kanban: </b></i>It is a visual workflow management method where tasks are displayed on a Kanban board, moving through different phases like “To Do,” “In Progress,” and “Done.”
+                        This way each state of a task is visible to the whole team, which helps in better resource allocation and a streamlined workflow.
+                        </p>
+                        <p><i><b>d) Crystal clear: </b></i> it is a light-weight methodology that does not require much documentation,  and it focuses on simplicity, face-to-face communication, and frequent delivery of working software. Regular reflection workshops help the team identify and address process improvements. 
+                        However, it lacks pre-defined scope which can pause the overall development process </p>
+                        
+                    </div>
+                </div>
+                <div class="sdlcthree">
+                    <h3>In this software development and application course of <a href="https://www.srh-university.de/de/" target="_blank">SRH</a>, we learn the following:</h3>
+                    <div class="sdlccourse">
+                        <p><i><b>a)</b></i> Different types of SDLC (Software Development Life Cycle) methodologies such as Agile, Waterfall, Incremental SDLC, and so on. </p>
+                        <p><i><b>b)</b></i>  Core concepts of the Object-Oriented Programming languages. </p>
+                        <p><i><b>c)</b></i>  About C programming language and Data structures such as Linked list, stacks, and queues. </p>
+                        <p><i><b>d)</b></i>  Introduction to Web development and how to create a website using HTML, CSS, and Javascript.</p>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+    
+            <section class="fifth-section common-section-style">
+                <div class="cssmethod">
+                    <h3>I Have used <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> in this webpage and  there are three ways to include CSS in a webpage as follows.</h3>
+                    <p> <i><b>a) Inline CSS:</i></b> It is applied directly to an HTML element using the style attribute.</p>
+                    <p><i><b>b) External CSS:</i></b> A separate CSS file is linked to the HTML document using the link tag in the head section.</p>
+                    <p><i><b>c) Internal CSS:</i></b> A CSS is placed within the style tag in the html file.</p>
+                </div>
+                <div class="cssreason">
+                    <h3>The reasons CSS is used in a webpage are:</h3>
+                    <p><i><b>1.</i></b> It allows developers to define the design of the website such as colors, fonts, layouts.</p>
+                    <p><i><b>2.</i></b> With CSS, webpages can be responsive and visually appealing by using features like animations, transitions and media queries.</p>
+                    <p><i><b>3.</i></b> By using a external CSS file, it gets easier to maintain, develop and manage the code.</p>
+                </div>
+                <div class="jsreason">
+                    <h3>We also use <a href="https://www.w3schools.com/js/" target="_blank">Javascript</a> in webpage development, the main reasons are as follows:</h3>
+                    <p><i><b>a)</i></b> Javascript is used to program the behavior of web pages such as interactive features like form validation, dropdowns, sliders, and dynamic updates, enhancing user engagement.
+                    </p>
+                    <p><i><b>b)</i></b> It can be used both on the client side (in the browser) and server side (via Node.js), making it a powerful tool for building full-stack web applications. </p>
+                    <p><i><b>c)</i></b> JavaScript works across all major browsers and platforms, ensuring consistent functionality and a seamless user experience.</p>
+                    <p><i><b>d)</i></b> By enabling animations, event handling, and responsive behaviors, JavaScript creates a smooth, dynamic, and engaging interface for users.</p>
+                </div>
+            </section>
+    
+            <section class="sixth-section common-section-style">
+                <p>I have done this project by myself and accept the consequences if found other ways.</p>
+                <p>You can reach me at: <input type="email" placeholder="anuragabhimanyu.singh@stud.srh-university.de"></p>
+            </section>
+        </div>
+    </div>
+    <script src="js/validation.js"></script>
+</body>
+
+</html>
